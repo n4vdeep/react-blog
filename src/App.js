@@ -1,8 +1,11 @@
+import React from 'react';
+import TopBar from './topbar/TopBar';
+
 function App() {
   return (
-    <div className="App">
-      Blog Project
-    </div>
+    <React.Fragment>    
+      <TopBar />
+    </React.Fragment>
   );
 }
 
