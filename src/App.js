@@ -1,10 +1,10 @@
 import React from 'react';
-import TopBar from './topbar/TopBar';
+import NavBar from './navbar/NavBar';
 
 function App() {
   return (
     <React.Fragment>    
-      <TopBar />
+      <NavBar />
     </React.Fragment>
   );
 }
