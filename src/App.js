@@ -1,12 +1,13 @@
 import React from 'react';
 import Home from "./pages/home/Home"
-import NavBar from './navbar/NavBar';
+import NavBar from './components/navbar/NavBar';
+import Write from './pages/write/Write';
 
 function App() {
   return (
     <React.Fragment>    
       <NavBar />
-      <Home />
+      <Write />
     </React.Fragment>
   );
 }
